@@ -19,3 +19,10 @@ elif 18<= age < 50:
     print("vous etes adultes\n");
 else:
     print("vous etes vieux\n");
+victoire= 12;
+if victoire:
+    print("WOOOOWWW\n");
+elif not victoire:
+    print("courage...\n");
+else:
+    print("continue a apprendre");
