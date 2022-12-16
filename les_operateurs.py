@@ -12,4 +12,4 @@ calcul = 5.0/2.0
 calcul = int (calcul)
 calcul2 = 5 % 2
 
-print("votre calcul vaut :", calcul, "reste vaut :", calcul2)
+print("votre calcul vaut :", calcul, "et le reste vaut :", calcul2)
