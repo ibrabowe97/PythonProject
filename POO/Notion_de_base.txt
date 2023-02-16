@@ -7,6 +7,19 @@ les notions de base du POO:
         Boucles
         Modularité
         Gestions erreurs
+
+    ------------------------------------- 
+    Programmation Objet 
+    -------------------------------------
+    class             : un plan de conception (un genre)
+    objet             : une instance de classe (un indivudu d'un genre)
+
+    Attribut          : une variable appartenant a une classe
+    Propriete         : en python, c'est une maniere de manipuler les attributs
+
+    Methode           : Fonction d'une classe (ce qu'elle peut faire)
+    Methode de Classe : Fonction d'une classe 
+    Methode statique  : Fonction d'une classe, mais idenpendante de celle-ci
+
+    Heritage          : classe fille qui herite d'une classe mere 
     
-    POO:
-        
