@@ -45,3 +45,11 @@ elif not victoire:
     print("courage...\n");
 else:
     print("continue a apprendre");
+
+# conditions en forcettes: if valeur1 < variable < valeur2
+duree=input("saisir la duree de ce que vous faites :")
+duree=int(duree)
+if 0 < duree < 60:
+    print('ok continuez...')
+else:
+    print('la duree doit etre en minute')

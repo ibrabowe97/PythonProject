@@ -31,8 +31,8 @@ try:
 	n=int(n)
 	if n < 0:
 		raise ValueError("Nombre negatif")
-except ValueError:
-	print("Vous devez entrer un nombre positif")
+# except ValueError:
+	# print("Vous devez entrer un nombre positif")
 
 finally :
 	print("merci")

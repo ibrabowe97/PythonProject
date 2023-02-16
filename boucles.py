@@ -1,7 +1,7 @@
 #encoding:utf-8;
 
 compteur =1;
-while compteur <10:
+while compteur <4:
     print("hello mama\n");
     compteur+=1;
 jeu=True;
@@ -18,7 +18,9 @@ while jeu:
         break;
     else:
         print("faites un choix");
-
+else:
+    print('bye bye')
+    exit('a bientot')
 nom="ibrahima";
 for letter in nom:
     print(letter);
