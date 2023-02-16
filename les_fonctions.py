@@ -18,23 +18,48 @@
         
 
 """
-### fonction avec argumentL
+import math as m;
+
+    ### fonction avec argument :
 def dire(nom_personne, message):
     print("{} {}".format(nom_personne, message));
 
 dire("ibrahima", "vous dit bonjour");
-#fonction avec argument avec valeur par defaut predefini:
+
+    #fonction avec argument avec valeur par defaut predefini:
 def fonction(nom="Ibrahima", age=26, mess="bye"):
     print("{} {} {}".format(nom, age, mess));
 
 fonction("abdoul", age=23, mess="hello")
 
-# fonction avec argument infini:
+    # fonction avec argument infini:
 def fonctionInfini(*ListeItems):
     for item in ListeItems:
         print(item)
 
+    # fonction avec argument infini et de meme nature :
+def fonctionInfiniSemblable(**ListeItm):
+    for i in ListeItems:
+        print(i)
+
 Liste =["ibrahima", "tidiane", "merci", 23]
 fonctionInfini(12, 23.4, 45.5, "hello", "victoire", Liste)
+
+    # fonction Lamda : permet de realiser une seule instruction; elle prend ou pas des parametres;
+lambda:print("Bonjour"); # -> cette fonction ne fait car elle n'a pas ete appelee;
+varibleLambda = lambda:print("hello");
+varibleLambda();
+calcul = lambda parametre1, parametre2: parametre1 + parametre2 # fonction lambda avec parametres;
+print(calcul(1, 3));
+
+
+
+
+
+
+
+
+
+
 
 

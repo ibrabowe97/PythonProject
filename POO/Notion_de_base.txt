@@ -1,0 +1,12 @@
+les notions de base du POO:
+    Resumé de ce qu'on a déjà vu:
+        afficher du texte -> print()
+        saisir du texte -> input()
+        Variable
+        fonctions 
+        Boucles
+        Modularité
+        Gestions erreurs
+    
+    POO:
+        
